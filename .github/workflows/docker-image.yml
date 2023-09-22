@@ -40,4 +40,5 @@ jobs:
     - name: Build the Docker image
       run: | 
         docker build . --file Dockerfile --tag ajbisht/python-learning:2.0
+        docker login -u ajbisht -p Waterboy@123 https://index.docker.io/v1
         docker push ajbisht/python-learning:2.0
