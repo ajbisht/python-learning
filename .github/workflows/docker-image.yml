@@ -39,5 +39,5 @@ jobs:
         #pytest -v --cov
     - name: Build the Docker image
       run: | 
-        docker build . --file Dockerfile --tag ajbisht/python-learning:$(date +%s)
-        docker push ajbisht/python-learning:$(date +%s)
+        docker build . --file Dockerfile --tag ajbisht/python-learning:2.0
+        docker push ajbisht/python-learning:2.0
